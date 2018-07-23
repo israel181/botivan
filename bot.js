@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 client.on('ready', () => {
-  console.log('estoy listo'');
+  console.log('estoy listo');
 });
   
 client.on('message', message => {
